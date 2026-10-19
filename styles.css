@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+}
+
+#selection-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
