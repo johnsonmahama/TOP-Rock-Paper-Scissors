@@ -1,9 +1,36 @@
 * {
     text-align: center;
+    background-color: yellow;
+    font-weight: bold;
 }
 
-#selection-container {
+#choices {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 40px;
+}
+
+#selection-container, #container, p {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+button {
+    width: 250px;
+    height: 250px; 
+       
+}
+
+#rock {
+    background-image: url(Images/rock.png);
+}
+
+#paper {
+    background-image: url(Images/paper.png);
+}
+
+#scissors {
+    background-image: url(Images/scissors.png);
 }
